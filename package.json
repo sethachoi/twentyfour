@@ -1,0 +1,27 @@
+{
+  "name": "tribe-twenty-four",
+  "version": "1.0.0",
+  "main": "./src/index.js",
+  "scripts": {
+    "start": "webpack-dev-server ./src/index.js",
+    "build": "webpack --config ./webpack.config.js",
+    "up": "yarn build && yarn start"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "react-router": "^4.3.1",
+    "react-router-config": "^4.4.0-beta.1",
+    "react-router-dom": "^4.3.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.4",
+    "styled-components": "^4.0.2",
+    "webpack": "^4.22.0",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.9"
+  }
+}
